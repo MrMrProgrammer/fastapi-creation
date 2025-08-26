@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: fastapi-creation
+Version: 0.0.1
+Summary: Create FastAPI project layouts easily
+Home-page: https://github.com/MrMrProgrammer/fastapi-creation
+Author: MrMrProgrammer
+Author-email: mrmrprogrammer@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+
+# fastapi-creation
+
+A simple package to create FastAPI project layouts easily.
