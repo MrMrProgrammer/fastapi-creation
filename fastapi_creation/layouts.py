@@ -44,31 +44,13 @@ LAYOUTS = {
                 "security.py": "",
                 "dependencies.py": ""
             },
-            "users": {
-                "__init__.py": "",
-                "models.py": "",
-                "routes.py": "",
-                "schemas.py": "",
-                "services.py": "",
-                "dependencies.py": ""
-            },
-            "products": {
-                "__init__.py": "",
-                "models.py": "",
-                "routes.py": "",
-                "schemas.py": "",
-                "services.py": ""
-            },
             "shared": {
                 "__init__.py": "",
                 "utils.py": "",
                 "exceptions.py": ""
             }
         },
-        "tests": {
-            "users": {},
-            "products": {}
-        },
+        "tests": {},
         "requirements.txt": "",
         ".env": "",
         "README.md": ""
@@ -147,33 +129,9 @@ LAYOUTS = {
 
     # 6. Microservices Structure
     "microservices": {
-        "services": {
-            "user_service": {
-                "app": {
-                    "main.py": ""
-                },
-                "Dockerfile": "",
-                "requirements.txt": "",
-                ".env": ""
-            },
-            "product_service": {
-                "app": {
-                    "main.py": ""
-                },
-                "Dockerfile": "",
-                "requirements.txt": "",
-                ".env": ""
-            },
-            "notification_service": {
-                "app": {},
-                "Dockerfile": "",
-                "requirements.txt": ""
-            }
-        },
+        "services": {},
         "shared": {},
-        "gateway": {
-            "main.py": ""
-        },
+        "gateway": {},
         "docker-compose.yml": "",
         "kubernetes": {},
         "README.md": ""
