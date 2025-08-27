@@ -1,3 +1,31 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "fastapi-creation"
+version = "0.0.5"
+description = "A FastAPI project scaffolding tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    { name = "MrMrProgrammer", email = "mrmrprogrammer@gmail.com" }
+]
+keywords = ["fastapi", "template", "scaffolding", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools"
+]
+dependencies = [
+    "typer>=0.9.0",
+    "jinja2>=3.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/MrMrProgrammer/fastapi-creation"
+Repository = "https://github.com/MrMrProgrammer/fastapi-creation"
+Documentation = "https://github.com/MrMrProgrammer/fastapi-creation#readme"
+
+[project.scripts]
+fastapi-creation = "fastapi_creation.cli:main"
